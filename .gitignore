@@ -8,3 +8,16 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Environment secrets
+.env
+
+# Spec PDF (not source code)
+*.pdf
+!data/*.pdf
+
+# Output artefacts
+output/*.json
+
+# Documentation (internal only)
+docs/

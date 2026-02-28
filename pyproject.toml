@@ -1,12 +1,13 @@
 [project]
 name = "semantic-search-module"
 version = "0.1.0"
-description = "Add your description here"
+description = "RAG semantic search module for bakery/pastry formulation — queries ingredient technical sheets using cosine similarity over pgvector embeddings."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "pandas>=2.3.3",
+    "psycopg2-binary>=2.9.11",
     "pypdf2>=3.0.1",
-    "scikit-learn>=1.7.2",
+    "python-dotenv>=1.2.1",
     "sentence-transformers>=5.2.3",
+    "streamlit>=1.30.0",
 ]
